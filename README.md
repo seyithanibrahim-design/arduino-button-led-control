@@ -19,3 +19,21 @@ Circuit Connection:
 LED: Connected to digital pin 10 through a 330 Ohm resistor.
 Button: Connected to digital pin 8.
 Pull-Down Logic: One side of the button is connected to 5V; the other side is connected to pin 8 and also to GND through the 10k Ohm resistor.
+
+Code Implementation:
+#define Buton 8
+#define Led 10
+
+void setup() {
+  pinMode(Buton, INPUT);
+  pinMode(Led, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(Buton) == HIGH) {
+    digitalWrite(Led, HIGH);
+  } else {
+    digitalWrite(Led, LOW);
+  }
+}
+
