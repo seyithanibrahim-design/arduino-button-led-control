@@ -8,11 +8,11 @@ Project Overview:
 In digital electronics, an unconnected input pin can pick up electrical noise, leading to "floating" states. This project utilizes a 10k Ohm pull-down resistor to tie the input pin to the ground (0V) when the button is not pressed, ensuring a reliable LOW reading.
 
 Components List:
-Microcontroller: Arduino Uno
-Input: Push Button
-Output: Red LED
-Resistors: * 330 Ohm (Current limiting for LED)
-10k Ohm (Pull-down for button)
+Microcontroller: Arduino Uno.
+Input: Push Button.
+Output: Red LED.
+Resistors: 330 Ohm (Current limiting for LED),
+10k Ohm (Pull-down for button).
 Breadboard & Jumper Wires
 
 Circuit Connection:
